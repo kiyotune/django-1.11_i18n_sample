@@ -17,10 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
 #: polls/templates/polls/index.html:16
 msgid "Hello from Osaka"
-msgstr "大阪からこんにちは"
-
-#~ msgid "Hello World"
-#~ msgstr "こんにちは"
+msgstr "오사카에서 안녕하세요"
