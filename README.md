@@ -10,9 +10,12 @@ $ python manage.py runserver
 ## Routing URLs
 - http://localhost:8000/polls
 
-Automatically selected according to the priority of the language used to display the web page. Chinese (zh_Hans,zh_Hant) is also displayed normally.
+The display language is selected based on your browser preferences. 
+Chinese (zh_Hans,zh_Hant) is also displayed normally.
 
 - http://localhost:8000/(locale_id)/polls
+
+The display language is selected by embedding the language prefix in the URL. Error in Chinese.
 
 | locale_id        | language       | supported |
 | :--------------: | :---------------: | :---------------: |
